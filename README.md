@@ -1,37 +1,37 @@
 # Rust
 ### Przegląd Tematów 
 
-1. Wprowadzenie do języka Rust -- jego cechy charakterystyczne (bezpieczeństwo, wydajność, przenośność). [+]
-2. Środowisko i narzędzia (rustup, cargo, rustc, fmt, clippy i inne). [+]
-3. Zmienne, typy proste (logiczny, liczbowe, znakowy, rozmiarowy), wyrażenia, rzutowanie. [+]
-4. Programowanie strukturalne w języku Rust (funkcje, instrukcje warunkowe, pętle). [+]
-5. Funkcje jako wartości pierwszego rzędu. [+]
-6. Pojęcie własności i czasu życia. Przekazywanie danych do funkcji. Przenoszenie, kopiowanie, klonowanie. Współpraca z kompilatorem. [+]
-7. Wbudowane typy złożone (tablice, wycinki, surowe napisy, krotki). [+]
-8. Biblioteczne typy złożone (napisy, wektory). [+]
-9. Obsługa błędów i sytuacji wyjątkowych (Option, Result). [+]
-10. Programowanie funkcyjne w języku Rust (domknięcia, iteratory, mapowanie, filtrowanie, składanie). [+]
-11. Używanie dokumentacji -- języka Rust i jego standardowej biblioteki. [+]
-12. Programowanie obiektowe w języku Rust (struktury, implementacje, cechy [interfejsy]). [+]
-13. Derywacja cech. [+]
-14. Programowanie obiektowe w języku Rust (wyliczenia). [+]
-15. Dopasowywanie. [+]
-16. Programowanie modułowe w języku Rust. Hermetyzacja. [+]
-17. Wzorzec Builder. [+]
-18. Programowanie generyczne (własne cechy) w języku Rust. [+]
-19. Biblioteczne typy złożone (wskaźniki inteligentne). [+]
-20. Polimorfizm dynamiczny. [+]
-21. Czasy życia jako parametr generyczny. [+]
-22. Programowanie generyczne (szablony) w języku Rust. [+]
-23. Biblioteczne typy złożone (zbiory, mapy). [+]
-24. Programowanie obiektowe w języku Rust (przeciążanie funkcji, w tym operatorów). [+]
-25. Wbudowane narzędzia do testów jednostkowych. [+]
-26. Biblioteczne typy złożone (pliki tekstowe). [+]
-27. Wzorzec Typestate. [+]
-28. Zaawansowana obsługa błędów. [+]
-29. Korzystanie z zewnętrznych bibliotek (crates.io). Serializacja. [+]
-30. Programowanie wielowątkowe w języku Rust. [+]
-31. Makra. [+]
+1. **Wprowadzenie do języka Rust** – Główne cechy: bezpieczeństwo, wydajność, przenośność.
+2. **Środowisko i narzędzia** – Instalacja i użycie `rustup`, `cargo`, `rustc`, `fmt`, `clippy` i innych.
+3. **Zmienne i typy proste** – Typy logiczne, liczbowe, znakowe, rozmiarowe; wyrażenia i rzutowanie typów.
+4. **Programowanie strukturalne** – Funkcje, instrukcje warunkowe, pętle.
+5. **Funkcje jako wartości pierwszego rzędu** – Wykorzystywanie funkcji jako danych.
+6. **Własność i czasy życia** – Przekazywanie danych, przenoszenie, kopiowanie, klonowanie, współpraca z kompilatorem.
+7. **Wbudowane typy złożone** – Tablice, wycinki, surowe napisy, krotki.
+8. **Biblioteczne typy złożone** – Napisy (`String`), wektory (`Vec`).
+9. **Obsługa błędów** – Mechanizmy `Option` i `Result`.
+10. **Programowanie funkcyjne** – Domknięcia, iteratory, `map`, `filter`, `fold` i inne.
+11. **Korzystanie z dokumentacji** – Oficjalna dokumentacja języka Rust i biblioteki standardowej.
+12. **Programowanie obiektowe (struktury i cechy)** – Struktury, implementacje, cechy (interfejsy).
+13. **Derywacja cech** – Automatyczne implementowanie cech przez `#[derive(...)]`.
+14. **Programowanie obiektowe (wyliczenia)** – Użycie typów `enum`.
+15. **Dopasowywanie wzorców** – `match`, `if let`, `while let`, itd.
+16. **Programowanie modułowe** – Moduły i hermetyzacja.
+17. **Wzorzec Builder** – Budowanie obiektów krok po kroku.
+18. **Programowanie generyczne z własnymi cechami** – Definiowanie i używanie generyków oraz cech.
+19. **Wskaźniki inteligentne** – `Box`, `Rc`, `Arc` i inne.
+20. **Polimorfizm dynamiczny** – Obiekty cech i dynamiczne wiązanie.
+21. **Czasy życia jako parametry generyczne** – Zaawansowane adnotacje czasu życia.
+22. **Szablony (generyki)** – Pisanie elastycznego kodu z użyciem generyków.
+23. **Zbiory i mapy** – `HashSet`, `HashMap` i inne kolekcje.
+24. **Przeciążanie funkcji i operatorów** – Nadpisywanie zachowań przez cechy.
+25. **Testy jednostkowe** – Tworzenie testów z użyciem wbudowanego frameworka.
+26. **Obsługa plików tekstowych** – Odczyt i zapis danych do plików.
+27. **Wzorzec Typestate** – Reprezentowanie stanów obiektów za pomocą typów.
+28. **Zaawansowana obsługa błędów** – Propagacja, kontekst, własne typy błędów.
+29. **Zewnętrzne biblioteki (`crates.io`)** – Zarządzanie zależnościami, serializacja (`serde`).
+30. **Programowanie wielowątkowe** – Wątki, kanały, `Mutex`, `Arc`.
+31. **Makra** – Tworzenie i używanie makr w metaprogramowaniu.
 ------
 
 ### Topics Overview
